@@ -9,7 +9,7 @@ function addtoZero (arr) {
             }
         } return false;
 }
-console.log(addtoZero([1,2,3,4,5,-3]))
+console.log(addtoZero([1,2,3,4,-3,-5]))
 //extra credit space complexity: run:O(n^2) space:O(1)
 
 
@@ -24,7 +24,7 @@ function uniChars (str) {
         return true;
     }
 
-console.log(uniChars('Hellooo'))
+console.log(uniChars('Satuuurday'))
 //extra credit space complexity: run:O(n) space:O(1)
 
 
@@ -39,7 +39,7 @@ function isPangram(sentence){
     }
     return true
   }
-console.log(isPangram('The quick brown fox jumps over the lazy dog.'))
+console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 console.log(isPangram("I like cats, but not mice"))
 //extra credit space complexity: run:O(n) space:O(1)
 
@@ -56,5 +56,5 @@ function findLongestWord (wordArray) {
     return longestWord
 }
 
-console.log(findLongestWord(['beautiful', 'happy', 'fantastic', 'motivation']))
+console.log(findLongestWord(['drake', 'tahoe', 'greece', 'entrepreneur']))
 //extra credit space complexity: run:O(n) space:O(1)
